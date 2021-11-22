@@ -73,6 +73,14 @@ $breakpoints: (
   }
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
 @for $i from 1 through 12 {
   .col-#{$i} {
     width: 100% / 12 * $i;

@@ -325,6 +325,14 @@
   }
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .col-1 {
   width: 8.3333333333%;
 }
